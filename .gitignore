@@ -1,0 +1,9 @@
+# Ignore specific SQL files
+insightsQuery.sql
+northwinddb.sql
+
+# Ignore Jupyter notebook file
+python_csv_to_database_automation.ipynb
+
+# Ignore data file
+data.csv
