@@ -7,3 +7,6 @@ python_csv_to_database_automation.ipynb
 
 # Ignore data file
 data.csv
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
