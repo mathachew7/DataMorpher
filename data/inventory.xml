@@ -1,0 +1,17 @@
+<inventory>
+  <item>
+    <id>1</id>
+    <product>Widget</product>
+    <stock>100</stock>
+  </item>
+  <item>
+    <id>2</id>
+    <product>Gadget</product>
+    <stock>200</stock>
+  </item>
+  <item>
+    <id>3</id>
+    <product>Doodad</product>
+    <stock>300</stock>
+  </item>
+</inventory>

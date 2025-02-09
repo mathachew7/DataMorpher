@@ -1,0 +1,17 @@
+2025-02-09 13:42:33,770 - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 13:42:33,770 - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 13:42:39,297 - INFO - Successfully uploaded 'sample.csv' to table 'sample'
+2025-02-09 01:48:25 PM UTC - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 01:48:25 PM UTC - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 01:48:30 PM UTC - INFO - Successfully uploaded 'customer.json' to table 'customer'
+2025-02-09 01:49:03 PM UTC - INFO - Successfully uploaded sheet 'Customers Table' from 'sample.xlsx' to table 'sample_customers_table'
+2025-02-09 01:49:04 PM UTC - INFO - Successfully uploaded sheet 'Employees Table' from 'sample.xlsx' to table 'sample_employees_table'
+2025-02-09 01:49:04 PM UTC - INFO - Successfully uploaded sheet 'Products Table' from 'sample.xlsx' to table 'sample_products_table'
+2025-02-09 01:49:04 PM UTC - INFO - Successfully uploaded sheet 'Orders Table' from 'sample.xlsx' to table 'sample_orders_table'
+2025-02-09 01:49:05 PM UTC - INFO - Successfully uploaded sheet 'Order_Items table' from 'sample.xlsx' to table 'sample_order_items_table'
+2025-02-09 01:49:05 PM UTC - INFO - Successfully uploaded sheet 'Categories table' from 'sample.xlsx' to table 'sample_categories_table'
+2025-02-09 01:49:05 PM UTC - INFO - Successfully uploaded sheet 'Suppliers table' from 'sample.xlsx' to table 'sample_suppliers_table'
+2025-02-09 01:49:06 PM UTC - INFO - Successfully uploaded sheet 'Inventory table' from 'sample.xlsx' to table 'sample_inventory_table'
+2025-02-09 01:58:38 PM UTC - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 01:58:38 PM UTC - INFO - Connected to database at 192.168.1.108/test_csv
+2025-02-09 01:58:42 PM UTC - INFO - Successfully uploaded 'sample.csv' to table 'sample'

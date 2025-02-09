@@ -1,0 +1,9 @@
+services:
+  datamorpher:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: python automate.py
