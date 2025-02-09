@@ -38,7 +38,7 @@
 ### 4: Use the Interactive Menu
 Once the application starts, you’ll see an interactive menu:
 
-   ```bash
+```bash
    ____        __        __  ___                 __             
    / __ \____ _/ /_____ _/  |/  /___  _________  / /_  ___  _____
   / / / / __ `/ __/ __ `/ /|_/ / __ \/ ___/ __ \/ __ \/ _ \/ ___/
@@ -53,7 +53,7 @@ Once the application starts, you’ll see an interactive menu:
    2. Upload Files
    3. Exit
    Choose an option (1/2/3): 
-   ```
+```
 
 ### 5. Follow the interactive menu to connect to your database
 
