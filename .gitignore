@@ -49,3 +49,8 @@ backend/tmp/
 .env.production
 .env.development
 .env.test
+
+# === venv ===
+venv/
+.env/venv/
+env/
