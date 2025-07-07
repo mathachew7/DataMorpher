@@ -1,0 +1,51 @@
+# === FRONTEND (Next.js) ===
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+frontend/.vercel/
+frontend/dist/
+frontend/out/
+frontend/.turbo/
+frontend/.cache/
+frontend/.eslintcache
+
+# Optional: Ignore built static types and trace files
+frontend/types/
+frontend/trace/
+frontend/build/
+
+# === BACKEND (Python) ===
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/logs/
+backend/tmp/
+
+# === Logs and temp ===
+*.log
+*.pid
+*.swp
+*.swo
+*.zip
+*.bak
+*.tmp
+*.tar.gz
+
+# === IDE and OS junk ===
+.vscode/
+.idea/
+.DS_Store
+
+# === System files ===
+.env
+.env.local
+.env.production
+.env.development
+.env.test

@@ -1,0 +1,8 @@
+Flask
+sqlalchemy
+pymssql
+pandas
+openpyxl
+xlrd
+pyfiglet
+colorama

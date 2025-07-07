@@ -1,9 +1,43 @@
+version: '3.8'
+
 services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql_server
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@ssword123"
+    ports:
+      - "1433:1433"
+    networks:
+      - datanet
+
   datamorpher:
-    build: .
+    build: ./backend
     stdin_open: true
     tty: true
     volumes:
       - ./logs:/app/logs
       - ./data:/app/data
-    command: python automate.py
+    working_dir: /app/app
+    command: python api.py
+    ports:
+      - "5050:5000"
+    depends_on:
+      - sql_server
+    networks:
+      - datanet
+
+  #frontend:
+  #  build: ./frontend
+  #  container_name: datamorpher-frontend
+  #  ports:
+  #    - "3000:3000"
+  #  depends_on:
+  #    - datamorpher
+  #  networks:
+  #    - datanet
+
+networks:
+  datanet:
+    driver: bridge
