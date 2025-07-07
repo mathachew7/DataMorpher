@@ -1,8 +1,8 @@
 # 🚀 DataMorpher
 
 **DataMorpher** is a fullstack data ingestion tool built by **Josla Tech**. It allows you to upload multiple file formats—CSV, Excel, JSON, XML—directly into your connected database using a modern web interface.
-
 The tool provides real-time logs of all operations and is fully Dockerized for easy setup and deployment. Its tech stack includes Next.js 14 for the frontend, FastAPI and SQLAlchemy with Python for the backend, and Docker for DevOps. The project aims to reduce manual ETL burden and support local and enterprise database workflows with minimal configuration.
+
 ---
 
 ## 🔥 Key Features
